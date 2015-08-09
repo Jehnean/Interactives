@@ -410,7 +410,9 @@ footer .copyright {
 }
 
 .services-content .service-dual-container,
-.clients-content .clients-dual-container {
+.clients-content .clients-dual-container,
+.clients-content .work-with-container,
+.clients-content .customer-base-container {
     max-width: 975px;
 }
 
@@ -527,9 +529,125 @@ footer .copyright {
     margin-top: 0;
 }
 
+.clients-content.work-with-content{
+  background-color: #F2F2F2;
+}
+
+.clients-content .work-with-container h3,
+.clients-content .customer-base-container h3{
+  text-align: center;
+}
+
+.work-with-container img{
+  max-width: 170px;
+}
+
+.clients-content .customer-base-container h3{
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 56px;
+}
+
+.partners .partner{
+  border: 1px solid #E6E6E6;
+  padding: 40px 60px;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto;
+  box-sizing: content-box;
+  height: 682px;
+}
+
+.partners .partner > img{
+  max-width: 150px;
+  width: 100%;
+}
+
+.partnered-solutions {
+  list-style: none;
+  padding-left: 0;
+}
+
+.partnered-solutions li{
+  font-family : Quicksand;
+  font-size : 16px;
+  line-height : 50px;
+  color : #000000;
+}
+
+.partnered-solutions-psi li{
+  margin-top: 12.5px;
+}
+
+.partnered-solutions .among-others{
+  color: #999999;
+}
+
+.testimonial-caro-section{
+  background-color: #0076A9;
+  padding: 160px 0;
+}
+
+.testimonial-caro-section .carousel-control.left,
+.testimonial-caro-section .carousel-control.right{
+  background-image: none;
+  background-color: transparent;
+}
+
+.testimonial-caro-section .carousel-inner>.item{
+  min-height: 710px;
+}
+
+.testimonial-caro-section .carousel-caption{
+  position: relative;
+  top: initial;
+  left:initial;
+  right:initial;
+  bottom:initial;
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.carousel-control .glyphicon-chevron-left{
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 52px;
+  height: 52px;
+  content: initial;
+  text-indent: -9999px;
+  background-image: url("/images/testimonial-left-arrow.png");
+}
+.carousel-control .glyphicon-chevron-right{
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 52px;
+  height: 52px;
+  content: initial;
+  text-indent: -9999px;
+  background-image: url("/images/testimonial-right-arrow.png");
+}
+
+.testimonial-caro-section .carousel-caption h1{
+  margin-bottom: 46px;
+  font-size: 35px;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.testimonial-caro-section .carousel-caption p{
+ font-size: 20px;
+ font-family: Quicksand;
+ margin: 20px 0 30px;
+}
+
+.testimonial-caro-section .carousel-caption p.citing{
+  margin: 40px 0;
+  display: block;
+}
+
 .projects-header {
-    background-color: #545454;
-    color: #FFFFFF;
+  background-color: #545454;
+  color: #FFFFFF;
 }
 
 .projects-header .container {
