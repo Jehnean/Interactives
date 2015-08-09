@@ -240,6 +240,11 @@ footer .copyright {
     color: black;
 }
 
+.cta:hover {
+    background-color: #10b0e6;
+    color: white;
+}
+
 .home-header .row {
     margin-top: 74px;
 }
