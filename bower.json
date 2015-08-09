@@ -1,0 +1,27 @@
+{
+  "name": "inter.actives",
+  "version": "1.0.0",
+  "authors": [
+    "Antonio Fernandes <afj176@gmail.com>"
+  ],
+  "description": "Interactives Website",
+  "main": "www/index.html",
+  "keywords": [
+    "Interactive",
+    "Website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "lightbox2": "~2.8.1"
+  }
+}

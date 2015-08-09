@@ -1,0 +1,810 @@
+.navbar {
+    height: 120px;
+}
+
+.navbar > .container {
+    margin-top: 40px;
+}
+
+.navbar-brand {
+    background-image: url("/images/interactives-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 220px;
+    height: 40px;
+    text-indent: -9999px;
+    direction: ltr;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    border-bottom: 2px solid #F8F8F8;
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    border-bottom: 2px solid #3498DB;
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    color: #006090;
+    background: #E8E8E8;
+    width: 100%;
+    z-index: 1;
+    height: 680px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    box-shadow: inset 0 0 30px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 30px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 0 30px 10px rgba(0,0,0,0.2);
+    -o-box-shadow: inset 0 0 30px 10px rgba(0,0,0,0.2);
+}
+
+.content-wrapper {
+    background-color: #fff;
+}
+
+header .container {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #006090;
+    color: rgb(0, 96, 144);
+    text-align: left;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    padding: 100px 0;
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+hr.star-light,hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+section.primary h2 {
+    color: #2c3e50;
+}
+
+section.success {
+    background-color: #18bc9c;
+    color: #fff;
+}
+
+body > footer.container {
+    height: 280px;
+    background-color: #333333;
+    max-width: 100%;
+    width: 100%;
+}
+
+footer .footer-logo {
+    width: 44px;
+    height: 40px;
+    background-image: url("/images/interactives-footer-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+    margin: 80px auto 15px;
+    text-indent: -9999px;
+    direction: ltr;
+}
+
+footer .footer-menu {
+    margin: 0 auto 15px;
+    display: block;
+    max-width: 656px;
+    height: 20px;
+}
+
+footer .footer-menu li {
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+    height: 20px;
+    display: inline-block;
+}
+
+footer .footer-menu li.li-wrap {
+    margin-right: 0;
+}
+
+footer .footer-menu li .linkedin {
+    background-image: url("/images/linkedin-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -9999px;
+    direction: ltr;
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+}
+
+footer .address, footer .tel,
+footer .email, footer .copyright {
+    font-size: 14px;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+footer .address, footer .tel {
+    color: white;
+}
+
+footer .email {
+    color: #008EC0;
+}
+
+footer .tel i,
+ footer .email i {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -9999px;
+    direction: ltr;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer .tel i {
+    background-image: url("/images/phone-icon.png");
+}
+
+footer .email i {
+    background-image: url("/images/email-icon.png");
+}
+
+footer .copyright {
+    color: #999999;
+    display: block;
+    text-align: center;
+    clear: both;
+    float: none;
+    margin-top: 20px;
+}
+
+.cta {
+    width: 200px;
+    height: 50px;
+    display: block;
+    border: 1px solid black;
+    line-height: 50px;
+    border-radius: 4px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.home-header .row {
+    margin-top: 74px;
+}
+
+.home-header .featured-image {
+    height: 334px;
+}
+
+.home-header .img-responsive {
+    width: 565px;
+    height: 344px;
+    margin-top: 0;
+}
+
+.home-header .intro-text {
+    max-width: 510px;
+    margin-top: 50px;
+}
+
+.home-header .intro-text .cta {
+    border: 1px solid #006090;
+    color: #006090;
+    color: rgb(0, 96, 144);
+    margin-top: 35px;
+}
+
+.about-us-section {
+    background-color: #006090;
+}
+
+.about-us-section p {
+    max-width: 800px;
+    font-size: 16px;
+    color: white;
+    font-family: Quicksand;
+    display: block;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.about-us-section p.lead {
+    font-size: 35px;
+    margin-bottom: 46px;
+}
+
+.about-us-section .cta {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 50px auto 35px;
+}
+
+.known-for-section {
+    background-color: #FFFFFF;
+}
+
+.known-for-section .row {
+    margin-bottom: 80px;
+}
+
+.known-for-section h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
+    color: #353F49;
+}
+
+.known-for-section h3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #353F49;
+}
+
+.known-for-section p {
+    font-family: Quicksand;
+    font-size: 20px;
+    color: #353F49;
+}
+
+.diamonds {
+    max-height: 120px;
+    max-width: 120px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.services-header {
+    background-color: #91D3D9;
+    color: #FFFFFF;
+}
+
+.services-header .img-responsive {
+    width: 345px;
+    height: 360px;
+    margin-top: 40px;
+    display: block;
+}
+
+.services-header .intro-text,
+.clients-header .intro-text {
+    display: table;
+    table-layout: fixed;
+    height: 480px;
+    float: right;
+}
+
+.services-header .intro-text .name,
+.clients-header .intro-text .name {
+    color: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.services-page  > img {
+    max-width: 157px;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.multi-platform-img {
+    max-width: 322px;
+}
+
+.services-content {
+    background-color: #FFFFFF;
+    padding: 160px 0;
+}
+
+.services-content .interactives-devices-block {
+    position: relative;
+}
+
+.services-content .interactives-devices-block > img {
+    max-width: 157px;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.services-content.highly-collaborative {
+    background-color: #F2F2F2;
+}
+
+.services-content.highly-collaborative .about-services {
+    max-width: 670px;
+    margin: 0 auto;
+    display: block;
+}
+
+.services-content .service-dual-container,
+.clients-content .clients-dual-container {
+    max-width: 975px;
+}
+
+.tech-savy-img {
+    max-width: 370px;
+}
+
+.services-content h3,
+.clients-content h3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    color: #353F49;
+    margin-bottom: 36px;
+}
+
+.services-content p,
+.clients-content p {
+    font-family: Quicksand;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+
+.services-content.tech-savy-block {
+    background-color: #596273;
+}
+
+.services-content.tech-savy-block h3 {
+    color: #FFFFFF;
+}
+
+.services-content.tech-savy-block p {
+    color: #FFFFFF;
+}
+
+.services-content.get-in-touch {
+    background-color: #494949;
+}
+
+.services-content.get-in-touch .about-services {
+    max-width: 696px;
+    margin: 0 auto;
+    display: block;
+}
+
+.services-content.get-in-touch h3,
+.services-content.get-in-touch p,
+.services-content.get-in-touch a {
+    color: #ffffff;
+}
+
+.services-content.get-in-touch h3 {
+    text-align: center;
+}
+
+.services-content.get-in-touch .cta-wrap {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+.services-content.get-in-touch a {
+    display: inline-block;
+    height: 50px;
+    margin-right: 25px;
+    border: 1px solid #FFF;
+    text-align: center;
+    width: auto;
+    padding: 0 20px;
+}
+
+.services-content.get-in-touch a.cta-email {
+    margin-right: 0;
+}
+
+.services-content.get-in-touch i {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -9999px;
+    direction: ltr;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.services-content.get-in-touch .cta-phone i {
+    background-image: url("/images/services-phone.png");
+}
+
+.services-content.get-in-touch .cta-email i {
+    background-image: url("/images/services-email.png");
+}
+
+.clients-header {
+    background-color: #FFD680;
+    color: #FFFFFF;
+}
+
+.clients-header .img-responsive {
+    width: 491px;
+    height: 322px;
+    margin-top: 90px;
+}
+
+.clients-header .intro-text .name {
+    max-width: 400px;
+    text-align: left;
+}
+
+.clients-content h3 {
+    margin-top: 0;
+}
+
+.projects-header {
+    background-color: #545454;
+    color: #FFFFFF;
+}
+
+.projects-header .container {
+    display: table;
+    table-layout: fixed;
+}
+
+.projects-header .container .title {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 100%;
+}
+
+.projects-header .container .title span {
+    display: block;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.about-header {
+    background-image: url("/images/about-hero-devices.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #82CF8F;
+    color: #FFFFFF;
+}
+
+.about-header .container {
+    display: table;
+    table-layout: fixed;
+}
+
+.about-header .container span {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    width: 100%;
+}
+
+.about-us-content {
+    background-color: #FFFFFF;
+    padding: 160px 0;
+}
+
+.about-us-content .interactives-devices-block {
+    position: relative;
+}
+
+.about-us-content .interactives-devices-block > img {
+    max-width: 157px;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.about-interactives h3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    color: #353F49;
+    margin-bottom: 30px;
+}
+
+.about-interactives p {
+    font-family: Quicksand;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.about-clients-rely-on .row {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.contact-us-header {
+    background-image: url("/images/contact-hero-devices.png");
+    background-repeat: no-repeat;
+    background-position: center 255px;
+    background-size: 825px 325px;
+    background-color: #967E9B;
+    color: #FFFFFF;
+    height: 580px;
+}
+
+.contact-us-header .container {
+    display: block;
+}
+
+.contact-us-header .container span {
+    display: block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.contact-page .known-for-section {
+    padding-top: 160px;
+    padding-bottom: 110px;
+}
+
+.contact-page .known-for-section .container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    clear: both;
+    float: none;
+}
+
+.contact-page .known-for-section .diamonds {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.contact-page .known-for-section h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    color: #353F49;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.contact-page .known-for-section a {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #353F49;
+    text-align: center;
+    display: block;
+}
+
+.contact-page .known-for-section .address-block span {
+    display: block;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    color: #353F49;
+    text-align: center;
+}
+
+.contact-page .known-for-section .address-block span strong {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #353F49;
+}
+
+.about-clients-rely-on {
+    background-color: #F2F2F2;
+}
+
+.about-clients-rely-on h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
+    color: #353F49;
+    margin-bottom: 65px;
+}
+
+.about-clients-rely-on .diamond-rows {
+    margin-bottom: 40px;
+}
+
+.about-clients-rely-on h3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #353F49;
+}
+
+.about-clients-rely-on p {
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.project-page .project {
+    margin-bottom: 160px;
+}
+
+.project-page .project h3,
+.project-page .project ul,
+.project-page .project p {
+    max-width: 1020px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-page h3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    color: #353F49;
+}
+
+.project-page .projects ul li, .project-page p {
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.project-page .projects ul, .project-page .projects p {
+    margin-bottom: 20px;
+}
+
+.project-page .project-thumbnails {
+    clear: both;
+    float: none;
+    max-width: 1020px;
+    margin: 35px auto 0;
+    height: 420px;
+}
+
+.project-page .project-thumbnails .col-md-4 {
+    max-width: 330px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project-page .project-thumbnails img {
+    width: 100%;
+    max-width: 330px;
+}
+
+/* 2X IMAGES */
+
+@media only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min--moz-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 1.25dppx) {
+
+    .navbar-brand {
+        background-image: url("/images/interactives-logo-2X.png");
+        background-size: contain;
+    }
+
+    footer .footer-logo {
+        background-image: url("/images/interactives-footer-logo-2x.png");
+        background-size: contain;
+    }
+
+    footer .footer-menu li .linkedin {
+        background-image: url("/images/linkedin-icon-2x.png");
+        background-size: contain;
+    }
+
+    footer .tel i,
+ footer .email i {
+        background-size: cover;
+    }
+
+    footer .tel i {
+        background-image: url("/images/phone-icon-2x.png");
+    }
+
+    footer .email i {
+        background-image: url("/images/email-icon-2x.png");
+    }
+
+    .about-header {
+        background-image: url("/images/about-hero-devices-2x.png");
+        background-size: contain;
+    }
+
+    .contact-us-header {
+        background-image: url("/images/contact-hero-devices-2x.png");
+        background-position: center 255px;
+        background-size: 825px 325px;
+    }
+
+    .services-content.get-in-touch i {
+        background-size: contain;
+    }
+
+    .services-content.get-in-touch .cta-phone i {
+        background-image: url("/images/services-phone@2x.png");
+    }
+
+    .services-content.get-in-touch .cta-email i {
+        background-image: url("/images/services-email@2x.png");
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "inter.actives",
+  "version": "1.0.0",
+  "description": "Interactives Website",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "Interactives"
+  ],
+  "author": "Antonio Fernandes",
+  "license": "MIT"
+}
