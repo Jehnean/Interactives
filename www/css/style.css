@@ -240,11 +240,25 @@ footer .copyright {
     color: black;
 }
 
-.btn-block.cta:hover {
+.home-header .intro-text .cta:hover {
     background-color: #10b0e6;
     color: white;
     text-decoration: none;
-    outline: none;
+    border: 1px solid #10b0e6;
+}
+
+.about-us-section .cta:hover {
+    background-color: #10b0e6;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #10b0e6;
+}
+
+.services-content.get-in-touch a:hover {
+    background-color: #10b0e6;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #10b0e6;
 }
 
 .home-header .row {
