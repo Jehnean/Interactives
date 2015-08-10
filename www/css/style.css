@@ -303,6 +303,7 @@ footer .copyright {
 
 .about-us-section p.lead {
     font-size: 35px;
+    font-weight: bold;
     margin-bottom: 46px;
 }
 
@@ -689,11 +690,11 @@ footer .copyright {
 .about-header .container span {
     display: table-cell;
     vertical-align: middle;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
     width: 100%;
+    margin-top: 100px;
 }
 
 .about-us-content {
@@ -748,12 +749,12 @@ footer .copyright {
 .contact-us-header .container span {
     display: block;
     vertical-align: top;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    margin-top: 100px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
     font-weight: 700;
     width: 100%;
-    margin-top: 100px;
 }
 
 .contact-page .known-for-section {
