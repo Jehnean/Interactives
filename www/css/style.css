@@ -36,6 +36,13 @@ body {
     font-weight: bold;
 }
 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+   color: #333;
+   background-color: #f8f8f8;
+   border-bottom: 2px solid #3498DB;
+}
+
 header {
     text-align: center;
     color: #006090;
@@ -914,6 +921,373 @@ footer .copyright {
 .project-page .project-thumbnails img {
     width: 100%;
     max-width: 330px;
+}
+
+
+@media (max-width: 991px) {
+  header {
+    height: auto;
+  }
+
+  header .container {
+    padding-top: 75px;
+    padding-bottom: 35px;
+    height: 100%;
+  }
+
+  .services-header .intro-text {
+    height: 330px;
+  }
+
+  .clients-header .intro-text{
+    height: 246px;
+  }
+
+  .services-header .img-responsive {
+    width: 345px;
+    height: 360px;
+    margin-top: 40px;
+    display: block;
+  }
+
+  .services-content {
+    padding: 80px 0;
+  }
+
+  .multi-platform-img{
+    max-width: 100%;
+    width: 200px;
+  }
+
+  .tech-savy-img{
+    max-width: 100%;
+    width: 340px;
+  }
+
+  .clients-header .img-responsive {
+    width: 340px;
+    height: auto;
+    margin-top: 45px;
+    max-width: 100%;
+  }
+
+  .customer-base-container .partners .col-md-4 {
+      display: block;
+      float: none;
+      clear: both;
+      margin-bottom: 30px;
+  }
+
+  .work-with-container .row .col-md-3 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-page .project-thumbnails{
+    height: auto;
+  }
+
+  .project-page .project-thumbnails .col-md-4{
+    float: none;
+    display: block;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-page .project-thumbnails img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-thumbnails .col-md-4 a{
+    display: block;
+  }
+
+  .about-header{
+    min-height: 400px;
+  }
+
+  .about-header .container {
+    padding-top: 195px;
+  }
+
+  .about-us-content {
+    padding: 75px 0;
+  }
+
+  .about-us-content .interactives-devices-block > img {
+    max-width: 157px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-page .known-for-section {
+    padding-top: 75px;
+    padding-bottom: 65px;
+  }
+
+  .contact-page .known-for-section .diamond-rows .col-md-4 {
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .content-wrapper {
+    overflow: hidden;
+  }
+
+  .navbar-default .navbar-brand {
+    margin-left: 20px;
+  }
+
+  header .intro-text .name,
+  .about-us-section p.lead {
+    font-size: 25px;
+  }
+
+  .about-us-section p{
+    font-size: 14px;
+  }
+
+  section,
+  .services-content {
+    padding: 50px 0;
+  }
+
+  .known-for-section .row {
+    margin-bottom: 40px;
+  }
+
+  .home-header .img-responsive {
+    max-width: 565px;
+    max-height: 344px;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .home-header .featured-image {
+    max-height: 334px;
+    height: auto;
+  }
+
+  .diamonds {
+    margin: 0 auto 30px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .services-header .intro-text,
+  .clients-header .intro-text {
+    display: block;
+    table-layout: initial;
+    height: auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .clients-header .intro-text .name {
+    max-width: 100%;
+  }
+
+  .clients-header .img-responsive {
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+  .work-with-container img {
+      max-width: 170px;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .partners .partner > img {
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .partnered-solutions li {
+    margin-top: 12.5px;
+    text-align: center;
+  }
+
+  .testimonial-caro-section {
+    padding: 50px 0;
+  }
+
+  .testimonial-caro-section .carousel-caption h1 {
+    margin-bottom: 26px;
+    font-size: 25px;
+  }
+
+  .testimonial-caro-section .carousel-caption p {
+    font-size: 14px;
+  }
+
+  .projects-header .container .title{
+    font-size: 25px;
+  }
+
+  .project-page h3{
+    font-size: 16px;
+  }
+
+  .project-page .project{
+    clear: both;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  .project-page .projects ul li,
+  .project-page p{
+    font-size: 14px;
+  }
+
+  .project-page .project-thumbnails{
+    height: auto;
+  }
+
+  .project-page .project-thumbnails .col-md-4{
+    float: none;
+    display: block;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-page .project-thumbnails img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-thumbnails .col-md-4 a{
+    display: block;
+  }
+
+  .multi-platform-img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .services-content.highly-collaborative .about-services {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .tech-savy-img {
+    max-width: 100%;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .services-content p, .clients-content p {
+    font-size: 14px;
+  }
+
+  .services-content.get-in-touch .cta-wrap {
+    width: 310px;
+  }
+
+  .services-content.get-in-touch a {
+    font-size: 12px;
+    padding: 0 10px;
+    margin-right: 8px;
+  }
+
+  .about-header{
+    min-height: 400px;
+  }
+
+  .about-us-content{
+    padding: 50px 0;
+  }
+
+  .about-us-content .interactives-devices-block > img {
+    max-width: 157px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .about-clients-rely-on h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contact-page .contact-us-header {
+    background-position: center 255px;
+    background-size: 355px 165px;
+    height: 420px;
+  }
+
+  .contact-us-header .container span {
+    margin-top: 80px;
+  }
+
+  .contact-page .known-for-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .contact-page .known-for-section .diamond-rows .col-md-4 {
+    margin-bottom: 25px;
+  }
+
+  body > footer.container {
+   height: auto;
+   float: none;
+   display: block;
+   overflow: hidden;
+  }
+
+  footer .footer-menu {
+    padding-left: 0;
+  }
+
+  footer .footer-menu li,
+  footer .copyright {
+    margin: 10px 0;
+    vertical-align: middle;
+    height: 20px;
+    display: block;
+  }
+
+  footer *{
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+
+  footer .footer-menu li{
+    width: 100%;
+  }
+
+  footer .footer-menu li .linkedin{
+    display: block;
+    margin: 0 auto;
+  }
+
+  footer .copyright{
+    font-size: 12px;
+  }
+
 }
 
 /* 2X IMAGES */
