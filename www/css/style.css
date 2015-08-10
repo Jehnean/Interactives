@@ -71,6 +71,11 @@ header .intro-text .name {
     text-align: left;
 }
 
+.home-header .intro-text .name {
+  text-align: left;
+  display: block;
+}
+
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
@@ -636,9 +641,10 @@ footer .copyright {
 }
 
 .testimonial-caro-section .carousel-caption p{
- font-size: 20px;
- font-family: Quicksand;
- margin: 20px 0 30px;
+  font-size: 20px;
+  font-family: Quicksand;
+  margin: 20px 0 30px;
+  text-shadow: none;
 }
 
 .testimonial-caro-section .carousel-caption p.citing{
@@ -672,6 +678,18 @@ footer .copyright {
     width: 100%;
     max-width: 930px;
     margin: 0 auto;
+}
+
+.lb-data .lb-caption .title,
+.lb-data .lb-caption .desc {
+  display: block;
+}
+
+.lb-data .lb-caption .desc {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: normal;
 }
 
 .about-header {
