@@ -568,8 +568,8 @@ footer .copyright {
 
 .partners .partner{
   border: 1px solid #E6E6E6;
-  padding: 40px 60px;
-  max-width: 280px;
+  padding: 40px 50px;
+  max-width: 290px;
   display: block;
   margin: 0 auto;
   box-sizing: content-box;
@@ -588,13 +588,22 @@ footer .copyright {
 
 .partnered-solutions li{
   font-family: 'Quicksand', sans-serif;
-  font-size : 16px;
-  line-height : 50px;
-  color : #000000;
+  font-size: 16px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 34px;
 }
 
 .partnered-solutions-psi li{
-  margin-top: 12.5px;
+  margin-bottom: 32.5px;
+}
+
+.partnered-solutions-ibm li{
+  margin-bottom: 40px;
+}
+
+.partnered-solutions-sum li{
+  margin-bottom: 40px;
 }
 
 .partnered-solutions .among-others{
@@ -692,6 +701,10 @@ footer .copyright {
     margin: 0 auto;
 }
 
+.lb-data .lb-caption .title{
+  font-size: 20px;
+}
+
 .lb-data .lb-caption .title,
 .lb-data .lb-caption .desc {
   display: block;
@@ -700,8 +713,14 @@ footer .copyright {
 .lb-data .lb-caption .desc {
   margin-top: 3px;
   margin-bottom: 3px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: normal;
+  line-height: 22px;
+  text-indent: 2px;
+}
+
+.lb-data .lb-number{
+  text-indent: 2px;
 }
 
 .about-header {
@@ -1310,7 +1329,7 @@ footer .copyright {
     }
 
     footer .tel i,
- footer .email i {
+    footer .email i {
         background-size: cover;
     }
 
