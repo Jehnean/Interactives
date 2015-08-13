@@ -846,10 +846,11 @@ footer .copyright {
 
 .contact-page .known-for-section .address-block span {
     display: block;
-    font-family: Myriad Pro;
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     color: #353F49;
     text-align: center;
+    line-height: 24px;
 }
 
 .contact-page .known-for-section .address-block span strong {
